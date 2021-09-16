@@ -1,0 +1,25 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaishnavi2206/Node-JS.git"
+  },
+  "author": "Vaishnavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaishnavi2206/Node-JS/issues"
+  },
+  "homepage": "https://github.com/Vaishnavi2206/Node-JS#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

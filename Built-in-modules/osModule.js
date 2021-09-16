@@ -11,6 +11,10 @@ const osInfo={
     release:os.release(),
     totalMemory:os.totalmem(), //returns in bytes
     freeMemory:os.freemem(),
+    platform:os.platform(),
+    arch:os.arch(),
+    cpu:os.cpus(),
+    hostname:os.hostname()
 }
 
 console.log(osInfo);
